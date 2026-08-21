@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 23% 97%;
+    --foreground: 30 10% 16%;
+    --card: 0 0% 100%;
+    --card-foreground: 30 10% 16%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 30 10% 16%;
+    --primary: 18 64% 46%;
+    --primary-foreground: 40 30% 98%;
+    --secondary: 40 20% 93%;
+    --secondary-foreground: 30 10% 20%;
+    --muted: 40 16% 94%;
+    --muted-foreground: 30 8% 45%;
+    --accent: 18 64% 46%;
+    --accent-foreground: 40 30% 98%;
+    --destructive: 4 70% 48%;
+    --destructive-foreground: 40 30% 98%;
+    --success: 152 38% 40%;
+    --warning: 38 80% 50%;
+    --border: 40 16% 89%;
+    --input: 40 16% 90%;
+    --ring: 18 64% 46%;
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  ::selection {
+    background: hsl(18 64% 46% / 0.18);
+    color: hsl(30 10% 16%);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .paper-card {
+    background: hsl(0 0% 100%);
+    box-shadow:
+      0 1px 2px hsl(30 10% 16% / 0.04),
+      0 8px 24px -12px hsl(30 10% 16% / 0.08);
+  }
+
+  .paper-card-soft {
+    background: hsl(0 0% 100%);
+    box-shadow:
+      0 1px 2px hsl(30 10% 16% / 0.03),
+      0 4px 16px -8px hsl(30 10% 16% / 0.06);
+  }
+
+  .shadow-soft {
+    box-shadow:
+      0 1px 2px hsl(30 10% 16% / 0.04),
+      0 10px 30px -12px hsl(30 10% 16% / 0.10);
+  }
+
+  .warm-gradient {
+    background:
+      radial-gradient(
+        ellipse 80% 50% at 50% -10%,
+        hsl(18 64% 46% / 0.06),
+        transparent
+      );
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
