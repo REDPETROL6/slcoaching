@@ -531,7 +531,7 @@ export const translations = {
       eyebrow: 'About the Coach',
       title: "Hi, I'm Sacha.",
       paragraphs: [
-        "I'm a 20-year-old high-level athlete and I build physiques the way an engineer builds systems — with measurement, tolerances, and evidence. My engineering and business background trained me to distrust guesswork and respect data, and I apply that same discipline to every training and nutrition protocol I write.",
+        "I'm a high-level athlete and I build physiques the way an engineer builds systems — with measurement, tolerances, and evidence. My engineering and business background trained me to distrust guesswork and respect data, and I apply that same discipline to every training and nutrition protocol I write.",
         'Coaching asynchronously is a deliberate choice. It forces everything to be documented, precise, and reviewable: your program lives in a structured PDF and spreadsheet, your form is analyzed frame by frame from the videos you send, and every adjustment is justified. No rushed calls, no vague cues.',
         "I'm WADA / ADEL anti-doping certified and committed to clean, health-first coaching. My goal is simple: give you a system you understand, can execute anywhere, and can trust to deliver repeatable results.",
       ],
