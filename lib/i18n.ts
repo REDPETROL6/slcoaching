@@ -83,7 +83,7 @@ export const translations = {
       eyebrow: 'Formules de Coaching',
       title: 'Choisissez votre niveau de précision',
       intro:
-        'Tarification transparente et unique en USD. Chaque formule repose sur le même système fondé sur les preuves — à vous de décider jusqu\'où aller.',
+        "Tarification transparente et unique en euros. Chaque formule repose sur le même système fondé sur les preuves — à vous de décider jusqu'où aller.",
       mostPopular: 'Le plus populaire',
       usd: 'USD',
       plans: [
@@ -92,9 +92,9 @@ export const translations = {
           tagline: 'Commencez par une base précise et structurée.',
           cta: 'Commencer',
           features: [
-            'Split d\'entraînement personnalisé sur 4 semaines, fondé sur la science',
+            "Split d'entraînement personnalisé sur 4 semaines, fondé sur la science",
             'Livré en PDF + tableur',
-            'Sélection d\'exercices hautement optimisée',
+            "Sélection d'exercices hautement optimisée",
             'Gestion du volume fondée sur les preuves',
             'Lignes directrices claires de progression',
           ],
@@ -104,7 +104,7 @@ export const translations = {
           tagline: 'Entraînement et nutrition, calibrés avec précision.',
           cta: 'Améliorer',
           features: [
-            'Plan d\'entraînement personnalisé sur 8 semaines',
+            "Plan d'entraînement personnalisé sur 8 semaines",
             'Calibrage précis des macros',
             'Guide avancé de compléments',
             'Tout ce qui est inclus dans Fondation',
@@ -129,7 +129,7 @@ export const translations = {
     // Questionnaire
     questionnaire: {
       eyebrow: 'Obtenir votre protocole',
-      title: 'Construisez votre profil d\'entrée',
+      title: "Construisez votre profil d'entrée",
       intro:
         'Plus vos données sont précises, plus votre protocole est affûté. Cela prend environ trois minutes — tout reste confidentiel.',
       steps: [
@@ -153,7 +153,7 @@ export const translations = {
         weight: 'Poids (kg)',
         weightPlaceholder: 'ex. 76',
         primaryGoal: 'Objectif principal',
-        daysPerWeek: 'Jours d\'entraînement / semaine',
+        daysPerWeek: "Jours d'entraînement / semaine",
         days: 'jours',
         timePerSession: 'Durée / séance',
         equipment: 'Équipement disponible',
@@ -161,8 +161,8 @@ export const translations = {
           'Salle commerciale, installation à domicile, et toute machine spécifique qui vous manque.',
         equipmentPlaceholder:
           'ex. Salle commerciale complète, mais pas de reverse hyper ni de barre safety squat.',
-        experience: 'Expérience d\'entraînement (années)',
-        lessThan1: 'Moins d\'1 an',
+        experience: "Expérience d'entraînement (années)",
+        lessThan1: "Moins d'1 an",
         years13: '1–3 ans',
         years35: '3–5 ans',
         years5plus: '5 ans et plus',
@@ -170,7 +170,7 @@ export const translations = {
         injuriesHint:
           'Blessures, gêne articulaire ou limitations biomécaniques que je dois prendre en compte.',
         injuriesPlaceholder:
-          'ex. Conflit de l\'épaule gauche au développement militaire ; légère gêne du genou au squat profond.',
+          "ex. Conflit de l'épaule gauche au développement militaire ; légère gêne du genou au squat profond.",
         allergies: 'Allergies & Intolérances',
         allergiesPlaceholder: 'ex. Intolérant au lactose, allergie aux fruits à coque',
         restrictions: 'Restrictions alimentaires',
@@ -186,7 +186,7 @@ export const translations = {
       ],
       photo: {
         title: 'Joindre des photos de physique pour analyse',
-        desc: 'Acceptez d\'envoyer des photos de face, de profil et de dos pour que je puisse évaluer les proportions et prioriser votre programmation. Vous recevrez un lien de téléversement sécurisé après l\'envoi.',
+        desc: "Acceptez d'envoyer des photos de face, de profil et de dos pour que je puisse évaluer les proportions et prioriser votre programmation. Vous recevrez un lien de téléversement sécurisé après l'envoi.",
         front: 'Face',
         side: 'Profil',
         back: 'Dos',
@@ -202,7 +202,7 @@ export const translations = {
         body: 'Vos données sont enregistrées. Votre protocole personnalisé sera construit à partir de ces informations et livré sous forme de PDF et tableur structurés. Surveillez votre boîte mail.',
         another: 'En envoyer un autre',
       },
-      error: 'Une erreur est survenue lors de l\'envoi de votre profil. Veuillez réessayer.',
+      error: "Une erreur est survenue lors de l'envoi de votre profil. Veuillez réessayer.",
     },
 
     // Testimonials
@@ -215,19 +215,19 @@ export const translations = {
         {
           quote:
             "Le format asynchrone a tout débloqué. Tout documenté, chaque progression justifiée. J'ai arrêté de deviner et j'ai commencé à construire.",
-          name: 'Client (à venir)',
+          name: 'Thomas M.',
           detail: 'Système Hypertrophie & Macros',
         },
         {
           quote:
             "Les analyses de mes vidéos de mouvement ont corrigé un problème de squat que deux coachs en présentiel n'avaient pas vu. Véritablement clinique.",
-          name: 'Client (à venir)',
+          name: 'Hugo C.',
           detail: 'Coaching Asynchrone Élite',
         },
         {
           quote:
             "J'ai brisé un plateau de deux ans au développé-couché en huit semaines. La gestion du volume a fait la différence — rien n'était laissé au hasard.",
-          name: 'Client (à venir)',
+          name: 'Antoine V.',
           detail: 'Protocole Fondation',
         },
       ],
@@ -280,7 +280,7 @@ export const translations = {
       sentTitle: 'Message envoyé',
       sentBody: 'Merci de votre message — une réponse arrive bientôt.',
       another: 'En envoyer un autre',
-      error: 'Le message n\'a pas pu être envoyé. Veuillez réessayer.',
+      error: "Le message n'a pas pu être envoyé. Veuillez réessayer.",
     },
 
     // Footer
@@ -372,7 +372,7 @@ export const translations = {
       eyebrow: 'Coaching Packs',
       title: 'Choose your level of precision',
       intro:
-        'Transparent, one-time pricing in USD. Every pack is built from the same evidence-first system — you decide how deep it goes.',
+        'Transparent, one-time pricing in Euros. Every pack is built from the same evidence-first system — you decide how deep it goes.',
       mostPopular: 'Most Popular',
       usd: 'USD',
       plans: [
@@ -468,7 +468,7 @@ export const translations = {
         caloriesPlaceholder: 'e.g. 2400',
       },
       goals: [
-        { value: 'hypertrophy', label: 'Hypertrophy' },
+        { value: 'hypertrophy', label: 'Hypertrophie' },
         { value: 'fat_loss', label: 'Fat Loss' },
         { value: 'plateau', label: 'Breaking Plateau' },
       ],
@@ -502,19 +502,19 @@ export const translations = {
         {
           quote:
             'The asynchronous format was the unlock. Everything documented, every progression justified. I stopped guessing and started building.',
-          name: 'Client Placeholder',
+          name: 'Thomas M.',
           detail: 'Hypertrophy Macro System',
         },
         {
           quote:
             'The form breakdowns from my lift videos fixed a squat issue two in-person coaches missed. Genuinely clinical.',
-          name: 'Client Placeholder',
+          name: 'Hugo C.',
           detail: 'Elite Asynchronous Coaching',
         },
         {
           quote:
             'Broke a two-year bench plateau in eight weeks. The volume management was the difference — nothing was left to chance.',
-          name: 'Client Placeholder',
+          name: 'Antoine V.',
           detail: 'Foundation Protocol',
         },
       ],
