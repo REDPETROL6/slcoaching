@@ -76,12 +76,12 @@ export function Hero() {
         <Reveal delay={200} className="relative">
           <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl shadow-soft sm:aspect-[4/4]">
             <Image
-              src="https://images.pexels.com/photos/13106591/pexels-photo-13106591.jpeg?auto=compress&cs=tinysrgb&h=1200&w=900"
+              src="/slcoaching-logo.jpg"
               alt={h.alt}
               fill
               priority
               sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover"
+              className="object-contain"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
           </div>
