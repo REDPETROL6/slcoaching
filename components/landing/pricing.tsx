@@ -5,7 +5,7 @@ import { Reveal } from './reveal';
 import { cn } from '@/lib/utils';
 import { useLanguage } from '@/lib/language-context';
 
-const prices = ['30', '60', '100'];
+const prices = ['65', '100', '150'];
 const featured = [false, true, false];
 
 export function Pricing() {
@@ -49,8 +49,8 @@ export function Pricing() {
                 <span className="text-5xl font-extrabold leading-none tracking-tight">
                   {prices[i]}
                 </span>
-                <span className="mb-1 text-2xl font-medium text-muted-foreground">
-                  €
+                <span className="mb-1 text-2xl font-medium text-muted-foreground flex items-end gap-1">
+                  € <span className="text-lg pb-0.5">{p.perMonth}</span>
                 </span>
               </div>
 
