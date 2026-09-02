@@ -40,7 +40,7 @@ export function SiteHeader() {
           </span>
           <span className="flex flex-col leading-none">
             <span className="text-sm font-extrabold tracking-tight">
-              SL PERFORMANCE
+              SL COACHING
             </span>
             <span className="mt-0.5 text-[10px] font-medium tracking-wide text-muted-foreground">
               {t.tagline}
