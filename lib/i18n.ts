@@ -17,15 +17,15 @@ export const translations = {
       badge: 'Système de Coaching Scientifique',
       title1: 'Construisez votre',
       title1Accent: 'physique.',
-      title2: 'Piloté par les données, 100%',
-      title2Break: 'coaching asynchrone.',
+      title2: 'Piloté par les données, un',
+      title2Break: 'accompagnement premium.',
       subtitle:
-        "Aucun appel vidéo. Aucune contrainte de planning. Une précision clinique — des protocoles d'entraînement personnalisés, un calibrage des macros et une analyse biomécanique de la technique, livrés selon votre rythme et affinés par les preuves.",
+        "Une flexibilité totale sans compromis sur le suivi. Une précision clinique — des protocoles d'entraînement personnalisés, un calibrage des macros et une analyse biomécanique de la technique, livrés selon votre rythme et affinés par les preuves.",
       ctaPrimary: 'Obtenir votre protocole',
       ctaSecondary: 'La méthodologie',
       stats: [
-        { value: '100%', label: 'Asynchrone' },
-        { value: '0', label: 'Appels programmés' },
+        { value: '6j/7', label: 'Support & Suivi' },
+        { value: '100%', label: 'Personnalisé' },
         { value: '12 sem', label: 'Blocs Élite' },
       ],
       cards: [
@@ -39,19 +39,19 @@ export const translations = {
     // Methodology
     methodology: {
       eyebrow: 'La Méthodologie',
-      title: "L'Avantage Asynchrone d'Élite",
+      title: "L'Avantage de la Précision d'Élite",
       intro:
-        "L'asynchrone n'est pas un compromis — c'est le modèle le plus rigoureux. Tout est écrit, mesurable et conçu pour être revu.",
+        "La flexibilité n'est pas un compromis — c'est un modèle rigoureux d'accompagnement. Tout est écrit, mesurable, et conçu pour optimiser vos résultats avec un suivi constant.",
       pillars: [
         {
-          title: 'Aucun Appel Vidéo',
+          title: 'Une Flexibilité Totale',
           body:
-            "Un coaching qui respecte le travail profond et la récupération. Rien à rejoindre, rien à reprogrammer — votre progression n'attend jamais un créneau d'agenda.",
+            "Un coaching qui respecte votre vie professionnelle et votre récupération. Vous vous entraînez quand cela vous arrange, tout en bénéficiant d'un encadrement et de retours constants.",
         },
         {
-          title: 'Zéro Friction de Planning',
+          title: 'Suivi Continu et Documenté',
           body:
-            "Fuseaux horaires, horaires de travail, voyages — sans importance. Vous vous entraînez quand ça vous arrange ; les retours arrivent de façon asynchrone, toujours documentés.",
+            "Fuseaux horaires, horaires de travail, voyages — je m'adapte. Vos retours arrivent de façon structurée et restent toujours documentés pour suivre votre évolution mathématiquement.",
         },
         {
           title: 'Précision Clinique',
@@ -61,7 +61,7 @@ export const translations = {
         {
           title: 'Analyse Biomécanique de la Technique',
           body:
-            "Envoyez vos vidéos de mouvement. Je décompose les angles articulaires, la trajectoire de la barre et la mécanique positionnelle image par image et je renvoie des corrections précises.",
+            "Envoyez vos vidéos de mouvement. Je décompose les angles articulaires, la trajectoire de la barre et la mécanique positionnelle image par image pour vous renvoyer des corrections précises.",
         },
       ],
       credentials: [
@@ -83,44 +83,45 @@ export const translations = {
       eyebrow: 'Formules de Coaching',
       title: 'Choisissez votre niveau de précision',
       intro:
-        "Tarification transparente et unique en euros. Chaque formule repose sur le même système fondé sur les preuves — à vous de décider jusqu'où aller.",
+        "Tarification transparente en abonnement mensuel. Chaque formule repose sur le même système fondé sur les preuves — à vous de décider le niveau d'accompagnement.",
       mostPopular: 'Le plus populaire',
+      perMonth: '/ mois',
       usd: 'USD',
       plans: [
         {
-          name: 'Protocole Fondation',
-          tagline: 'Commencez par une base précise et structurée.',
+          name: 'Pack Fondation',
+          tagline: 'Les fondations de votre transformation, mesurées et ajustées.',
           cta: 'Commencer',
           features: [
-            "Split d'entraînement personnalisé sur 4 semaines, fondé sur la science",
-            'Livré en PDF + tableur',
-            "Sélection d'exercices hautement optimisée",
-            'Gestion du volume fondée sur les preuves',
-            'Lignes directrices claires de progression',
+            "Audit initial (analyse vidéo et objectifs)",
+            "Ciblage précis des macros quotidiennes",
+            "2 bilans mensuels (exécution, poids, progression)",
+            "Ajustements continus du programme",
+            "Suivi structuré de vos performances",
           ],
         },
         {
-          name: 'Système Hypertrophie & Macros',
-          tagline: 'Entraînement et nutrition, calibrés avec précision.',
+          name: 'Pack Deluxe',
+          tagline: 'Suivi hebdomadaire et optimisation nutritionnelle avancée.',
           cta: 'Améliorer',
           features: [
-            "Plan d'entraînement personnalisé sur 8 semaines",
-            'Calibrage précis des macros',
-            'Guide avancé de compléments',
-            'Tout ce qui est inclus dans Fondation',
-            'Livraison PDF claire et structurée',
+            "Tout le contenu du Pack Fondation",
+            "Bilan hebdomadaire à jour fixe",
+            "Protocole compléments sur-mesure (âge & profil)",
+            "Livre PDF exclusif : +50 recettes saines",
+            "Optimisation continue des macros",
           ],
         },
         {
-          name: 'Coaching Asynchrone Élite',
-          tagline: 'Coaching complet avec analyse de la technique.',
+          name: 'Pack Élite',
+          tagline: 'Prise en charge totale, corrections vidéo et menus.',
           cta: 'Choisir Élite',
           features: [
-            'Plan complet sur 12 semaines',
-            'Programmation nutritionnelle complète',
-            'Analyse biomécanique de la technique par messagerie',
-            'Envoyez vos vidéos — mécanique analysée',
-            'Ajustements asynchrones continus',
+            "Tout le contenu du Pack Deluxe",
+            "Messagerie 6j/7 (réponse rapide en journée)",
+            "Corrections vidéo de vos exécutions",
+            "2 appels vidéo mensuels de suivi stratégique",
+            "Menus hebdomadaires sur-mesure renouvelés",
           ],
         },
       ],
@@ -214,21 +215,21 @@ export const translations = {
       items: [
         {
           quote:
-            "Le format asynchrone a tout débloqué. Tout documenté, chaque progression justifiée. J'ai arrêté de deviner et j'ai commencé à construire.",
+            "L'accompagnement a tout débloqué. Tout est documenté, chaque progression justifiée. J'ai arrêté de deviner et j'ai commencé à construire.",
           name: 'Thomas M.',
-          detail: 'Système Hypertrophie & Macros',
+          detail: 'Pack Deluxe',
         },
         {
           quote:
             "Les analyses de mes vidéos de mouvement ont corrigé un problème de squat que deux coachs en présentiel n'avaient pas vu. Véritablement clinique.",
           name: 'Hugo C.',
-          detail: 'Coaching Asynchrone Élite',
+          detail: 'Pack Élite',
         },
         {
           quote:
             "J'ai brisé un plateau de deux ans au développé-couché en huit semaines. La gestion du volume a fait la différence — rien n'était laissé au hasard.",
           name: 'Antoine V.',
-          detail: 'Protocole Fondation',
+          detail: 'Pack Fondation',
         },
       ],
       transformations: [
@@ -245,14 +246,14 @@ export const translations = {
       eyebrow: 'À propos du Coach',
       title: 'Bonjour, je suis Sacha.',
       paragraphs: [
-        "Je suis un athlète de haut niveau de 20 ans et je construis les physiques comme un ingénieur construit des systèmes — avec mesure, tolérances et preuves. Ma formation en ingénierie et en commerce m'a appris à me méfier de l'à-peu-près et à respecter les données, et j'applique cette même discipline à chaque protocole d'entraînement et de nutrition que je rédige.",
-        "Le coaching asynchrone est un choix délibéré. Il oblige tout à être documenté, précis et vérifiable : votre programme vit dans un PDF et un tableur structurés, votre technique est analysée image par image à partir des vidéos que vous envoyez, et chaque ajustement est justifié. Aucun appel précipité, aucun indice vague.",
-        "Je suis certifié WADA / ADEL antidopage et engagé dans un coaching propre et axé sur la santé. Mon objectif est simple : vous donner un système que vous comprenez, que vous pouvez exécuter partout, et auquel vous pouvez faire confiance pour des résultats reproductibles.",
+        "Je suis un athlète de haut niveau et je construis les physiques comme un ingénieur construit des systèmes — avec mesure, tolérances et preuves. Ma formation en ingénierie et en commerce m'a appris à me méfier de l'à-peu-près et à respecter les données, et j'applique cette même discipline à chaque protocole d'entraînement et de nutrition que je rédige.",
+        "Mon approche de l'accompagnement est un choix délibéré. Elle oblige tout à être documenté, précis et suivi : votre programme vit dans un PDF et un tableur structurés, votre technique est analysée image par image, et chaque ajustement est justifié. Tout est pensé pour votre progression, avec un encadrement réactif.",
+        "Je suis certifié WADA / ADEL antidopage et engagé dans un coaching propre et axé sur la santé. Mon objectif est simple : vous donner un système que vous comprenez, que vous pouvez exécuter de manière flexible, et auquel vous pouvez faire confiance pour des résultats reproductibles.",
       ],
       badges: [
         { k: 'Ingénieur', v: 'Esprit système' },
         { k: 'Certifié', v: 'WADA / ADEL' },
-        { k: 'Asynchrone', v: 'Tout documenté' },
+        { k: 'Accompagnement', v: 'Suivi premium' },
       ],
       coach: 'Coach & Fondateur',
       alt: 'Espace réservé pour le portrait du coach Sacha',
@@ -263,10 +264,10 @@ export const translations = {
       eyebrow: 'Contact',
       title: 'Des questions avant de commencer ?',
       intro:
-        'Pour toute demande générale sur les formules, le processus, ou pour savoir si le coaching asynchrone convient à votre situation — envoyez un message et vous recevrez une réponse réfléchie.',
+        'Pour toute demande générale sur les packs, le processus, ou pour savoir si mon approche premium convient à votre situation — envoyez un message et vous recevrez une réponse réfléchie.',
       points: [
-        'Aucune obligation, aucun appel commercial',
-        'Les réponses sont complètes et écrites',
+        'Aucune obligation, aucun appel commercial forcé',
+        'Les réponses sont complètes et détaillées',
         'Prêt à commencer ? Rendez-vous sur Obtenir votre protocole',
       ],
       name: 'Nom',
@@ -285,7 +286,7 @@ export const translations = {
 
     // Footer
     footer: {
-      desc: "Coaching scientifique et 100% asynchrone. Construisez votre physique avec des protocoles de précision, un calibrage des macros et une analyse biomécanique de la technique.",
+      desc: "Coaching scientifique et accompagnement sur-mesure. Construisez votre physique avec des protocoles de précision, un calibrage des macros et une analyse de la technique.",
       navigate: 'Navigation',
       legal: 'Mentions légales',
       legalLinks: ['Politique de confidentialité', "Conditions d'utilisation", 'Accord de coaching'],
@@ -308,15 +309,15 @@ export const translations = {
       badge: 'Science-Based Coaching System',
       title1: 'Engineer your',
       title1Accent: 'physique.',
-      title2: 'Data-driven, 100%',
-      title2Break: 'asynchronous coaching.',
+      title2: 'Data-driven, premium',
+      title2Break: 'coaching support.',
       subtitle:
-        'No video calls. No scheduling friction. Just clinical precision — custom training protocols, macro calibration, and biomechanical form analysis, delivered on your timeline and refined by evidence.',
+        'Total flexibility without compromising on guidance. Clinical precision — custom training protocols, macro calibration, and biomechanical form analysis, delivered on your timeline and refined by evidence.',
       ctaPrimary: 'Get Your Protocol',
       ctaSecondary: 'The Methodology',
       stats: [
-        { value: '100%', label: 'Asynchronous' },
-        { value: '0', label: 'Scheduled Calls' },
+        { value: '6d/7', label: 'Active Support' },
+        { value: '100%', label: 'Personalized' },
         { value: '12wk', label: 'Elite Blocks' },
       ],
       cards: [
@@ -329,19 +330,19 @@ export const translations = {
 
     methodology: {
       eyebrow: 'The Methodology',
-      title: 'The Elite Asynchronous Advantage',
+      title: 'The Elite Precision Advantage',
       intro:
-        'Asynchronous is not a compromise — it is the more rigorous model. Everything is written down, measurable, and built to be reviewed.',
+        'Flexibility is not a compromise — it is a rigorous model of support. Everything is written down, measurable, and built to optimize your results with constant tracking.',
       pillars: [
         {
-          title: 'No Video Calls',
+          title: 'Total Flexibility',
           body:
-            'Coaching that respects deep work and recovery. Nothing to attend, nothing to reschedule — your progress never waits on a calendar slot.',
+            'Coaching that respects your work life and recovery. You train when it fits your schedule, while benefiting from constant guidance and feedback.',
         },
         {
-          title: 'Zero Scheduling Friction',
+          title: 'Continuous Documented Tracking',
           body:
-            'Time zones, work shifts, travel — irrelevant. You train when it fits your life; feedback arrives asynchronously, always documented.',
+            'Time zones, work shifts, travel — I adapt. Your feedback arrives structurally and remains documented to track your evolution mathematically.',
         },
         {
           title: 'Clinical Precision',
@@ -372,44 +373,45 @@ export const translations = {
       eyebrow: 'Coaching Packs',
       title: 'Choose your level of precision',
       intro:
-        'Transparent, one-time pricing in Euros. Every pack is built from the same evidence-first system — you decide how deep it goes.',
+        'Transparent monthly subscription pricing. Every pack is built from the same evidence-first system — you decide the level of support.',
       mostPopular: 'Most Popular',
+      perMonth: '/ month',
       usd: 'USD',
       plans: [
         {
-          name: 'Foundation Protocol',
-          tagline: 'Start with a precise, structured base.',
+          name: 'Foundation Pack',
+          tagline: 'The blueprint for your transformation, measured and adjusted.',
           cta: 'Get Started',
           features: [
-            '4-week custom science-based training split',
-            'Delivered as PDF + spreadsheet',
-            'Highly optimized exercise selection',
-            'Evidence-based volume management',
-            'Clear progression guidelines',
+            'Initial audit (video analysis and goal setting)',
+            'Precise daily macro targeting',
+            'Bi-weekly check-ins (execution, weight, progress)',
+            'Continuous program adjustments',
+            'Structured performance tracking',
           ],
         },
         {
-          name: 'Hypertrophy Macro System',
-          tagline: 'Training and nutrition, precisely calibrated.',
+          name: 'Deluxe Pack',
+          tagline: 'Weekly tracking and advanced nutritional optimization.',
           cta: 'Upgrade',
           features: [
-            '8-week custom training plan',
-            'Precise macro calibration',
-            'Advanced supplement guide',
-            'Everything in Foundation',
-            'Clean, structured PDF delivery',
+            'Everything in the Foundation Pack',
+            'Weekly check-ins on a fixed day',
+            'Custom supplement protocol (based on age & profile)',
+            'Exclusive PDF book: 50+ healthy & rewarding recipes',
+            'Continuous macro optimization',
           ],
         },
         {
-          name: 'Elite Asynchronous Coaching',
-          tagline: 'Full-system coaching with form analysis.',
+          name: 'Elite Pack',
+          tagline: 'Total management, video form correction, and custom meal plans.',
           cta: 'Choose Elite',
           features: [
-            '12-week full training plan',
-            'Complete nutrition programming',
-            'Biomechanical form analysis via messaging',
-            'Send lift videos — mechanics analyzed',
-            'Ongoing asynchronous adjustments',
+            'Everything in the Deluxe Pack',
+            '6/7 days messaging access (fast daytime response)',
+            'Custom video breakdowns of your lifts',
+            '2 monthly strategic video calls',
+            'Custom weekly meal plans (updated weekly)',
           ],
         },
       ],
@@ -501,21 +503,21 @@ export const translations = {
       items: [
         {
           quote:
-            'The asynchronous format was the unlock. Everything documented, every progression justified. I stopped guessing and started building.',
+            'The premium support was the unlock. Everything documented, every progression justified. I stopped guessing and started building.',
           name: 'Thomas M.',
-          detail: 'Hypertrophy Macro System',
+          detail: 'Deluxe Pack',
         },
         {
           quote:
             'The form breakdowns from my lift videos fixed a squat issue two in-person coaches missed. Genuinely clinical.',
           name: 'Hugo C.',
-          detail: 'Elite Asynchronous Coaching',
+          detail: 'Elite Pack',
         },
         {
           quote:
             'Broke a two-year bench plateau in eight weeks. The volume management was the difference — nothing was left to chance.',
           name: 'Antoine V.',
-          detail: 'Foundation Protocol',
+          detail: 'Foundation Pack',
         },
       ],
       transformations: [
@@ -532,13 +534,13 @@ export const translations = {
       title: "Hi, I'm Sacha.",
       paragraphs: [
         "I'm a high-level athlete and I build physiques the way an engineer builds systems — with measurement, tolerances, and evidence. My engineering and business background trained me to distrust guesswork and respect data, and I apply that same discipline to every training and nutrition protocol I write.",
-        'Coaching asynchronously is a deliberate choice. It forces everything to be documented, precise, and reviewable: your program lives in a structured PDF and spreadsheet, your form is analyzed frame by frame from the videos you send, and every adjustment is justified. No rushed calls, no vague cues.',
-        "I'm WADA / ADEL anti-doping certified and committed to clean, health-first coaching. My goal is simple: give you a system you understand, can execute anywhere, and can trust to deliver repeatable results.",
+        'My coaching approach is a deliberate choice. It forces everything to be documented, precise, and tracked: your program lives in a structured PDF and spreadsheet, your form is analyzed frame by frame, and every adjustment is justified. Everything is designed for your progression, with responsive guidance.',
+        "I'm WADA / ADEL anti-doping certified and committed to clean, health-first coaching. My goal is simple: give you a system you understand, can execute flexibly, and can trust to deliver repeatable results.",
       ],
       badges: [
         { k: 'Engineer', v: 'Systems mindset' },
         { k: 'Certified', v: 'WADA / ADEL' },
-        { k: 'Async', v: 'Fully documented' },
+        { k: 'Support', v: 'Premium guidance' },
       ],
       coach: 'Coach & Founder',
       alt: 'Portrait placeholder for coach Sacha',
@@ -548,10 +550,10 @@ export const translations = {
       eyebrow: 'Contact',
       title: 'Questions before you start?',
       intro:
-        'For general inquiries about the packs, the process, or whether asynchronous coaching fits your situation — send a message and you\'ll get a considered reply.',
+        'For general inquiries about the packs, the process, or whether my premium approach fits your situation — send a message and you\'ll get a considered reply.',
       points: [
-        'No obligation, no sales calls',
-        'Replies are thorough and written',
+        'No obligation, no forced sales calls',
+        'Replies are thorough and detailed',
         'Ready to start? Head to Get Your Protocol',
       ],
       name: 'Name',
@@ -569,7 +571,7 @@ export const translations = {
     },
 
     footer: {
-      desc: 'Science-based, 100% asynchronous coaching. Engineer your physique with precision protocols, macro calibration, and biomechanical form analysis.',
+      desc: 'Science-based, premium coaching support. Engineer your physique with precision protocols, macro calibration, and biomechanical form analysis.',
       navigate: 'Navigate',
       legal: 'Legal',
       legalLinks: ['Privacy Policy', 'Terms of Service', 'Coaching Agreement'],
