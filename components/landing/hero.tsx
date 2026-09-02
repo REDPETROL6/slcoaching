@@ -76,7 +76,7 @@ export function Hero() {
         <Reveal delay={200} className="relative">
           <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl shadow-soft sm:aspect-[4/4]">
             <Image
-              src="/SLCOACHING LOGO.jpg"
+              src="/LOGOPNG.png"
               alt={h.alt}
               fill
               priority
