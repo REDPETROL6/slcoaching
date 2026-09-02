@@ -76,12 +76,12 @@ export function Hero() {
         <Reveal delay={200} className="relative">
           <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl shadow-soft sm:aspect-[4/4]">
             <Image
-              src="/LOGOPNG.png"
+              src="/sachahero.jpg"
               alt={h.alt}
               fill
               priority
               sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-contain"
+              className="object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
           </div>
