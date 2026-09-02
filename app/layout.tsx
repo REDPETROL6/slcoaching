@@ -15,9 +15,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'SL Performance — Data-Driven Asynchronous Coaching',
+  title: 'SL Coaching — Accompagnement Premium & Physiologie Appliquée',
   description:
-    'Engineer your physique with science-based, 100% asynchronous fitness coaching. Precision training protocols, macro calibration, and biomechanical form analysis.',
+    'Construisez votre physique avec un coaching sur-mesure de haute précision. Protocoles personnalisés, calibrage des macros et analyse biomécanique.',
+  icons: {
+    icon: '/icon.png',
+  },
   openGraph: {
     images: [{ url: 'https://bolt.new/static/og_default.png' }],
   },
