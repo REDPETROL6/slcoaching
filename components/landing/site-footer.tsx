@@ -25,7 +25,7 @@ export function SiteFooter() {
                 <Dumbbell className="h-4.5 w-4.5" strokeWidth={2.5} />
               </span>
               <span className="text-sm font-extrabold tracking-tight">
-                SL PERFORMANCE
+                SL COACHING
               </span>
             </div>
             <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
