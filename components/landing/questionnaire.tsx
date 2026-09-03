@@ -17,6 +17,9 @@ import { Reveal } from './reveal';
 import { useLanguage } from '@/lib/language-context';
 
 type FormState = {
+  name: string;
+  email: string;
+  phone: string;
   age: string;
   gender: string;
   heightCm: string;
@@ -34,6 +37,9 @@ type FormState = {
 };
 
 const initialState: FormState = {
+  name: '',
+  email: '',
+  phone: '',
   age: '',
   gender: '',
   heightCm: '',
@@ -80,7 +86,7 @@ function Field({
 export function Questionnaire() {
   const { t } = useLanguage();
   const q = t.questionnaire;
-  const f = q.fields;
+  const f = q.fields as any; // Cast pour accepter les nouveaux champs s'ils ne sont pas encore typés
 
   const [step, setStep] = useState(0);
   const [form, setForm] = useState<FormState>(initialState);
@@ -94,6 +100,9 @@ export function Questionnaire() {
   const stepValid = () => {
     if (step === 0) {
       return (
+        form.name.trim() !== '' &&
+        form.email.trim() !== '' &&
+        form.phone.trim() !== '' &&
         form.age.trim() !== '' &&
         form.gender.trim() !== '' &&
         form.primaryGoal.trim() !== ''
@@ -117,6 +126,9 @@ export function Questionnaire() {
         body: JSON.stringify({
           access_key: 'e7005c25-5d5b-4178-b000-ccaf37ad2dc7',
           subject: '🔥 Nouvelle candidature Coaching - SL Performance',
+          name: form.name,
+          email: form.email,
+          phone: form.phone,
           Âge: form.age,
           Genre: form.gender,
           Taille: form.heightCm ? `${form.heightCm} cm` : 'Non précisé',
@@ -250,6 +262,38 @@ export function Questionnaire() {
 
                   {step === 0 && (
                     <div className="grid gap-5 sm:grid-cols-2">
+                      <div className="sm:col-span-2">
+                        <Field label={f.name || 'Nom complet'}>
+                          <input
+                            type="text"
+                            value={form.name}
+                            onChange={(e) => update('name', e.target.value)}
+                            placeholder={f.namePlaceholder || 'ex. Prénom Nom'}
+                            className={fieldBase}
+                          />
+                        </Field>
+                      </div>
+                      <Field label={f.email || 'E-mail'}>
+                        <input
+                          type="email"
+                          value={form.email}
+                          onChange={(e) => update('email', e.target.value)}
+                          placeholder={f.emailPlaceholder || 'vous@email.com'}
+                          className={fieldBase}
+                        />
+                      </Field>
+                      <Field label={f.phone || 'Numéro de téléphone'}>
+                        <input
+                          type="tel"
+                          value={form.phone}
+                          onChange={(e) => update('phone', e.target.value)}
+                          placeholder={f.phonePlaceholder || '+33 6 ...'}
+                          className={fieldBase}
+                        />
+                      </Field>
+                      
+                      <div className="col-span-full my-2 border-t border-border" />
+                      
                       <Field label={f.age}>
                         <input
                           type="number"
